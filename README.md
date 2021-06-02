@@ -17,6 +17,7 @@ TWILIO_AUTH_TOKEN
 TWILIO_PHONE_NUMBER 
 
 ```bash
+yarn install
 yarn tsc 
 
 yarn devServer
