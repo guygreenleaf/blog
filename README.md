@@ -35,4 +35,11 @@ Go to network tab to add IP 0.0.0.0/0
 
 
 
+## Client Instructions
+
+cd into client directory and yarn install
+yarn start to start up client
+
+
+
 
