@@ -24,7 +24,7 @@ yarn devServer
 
 
 # What This Is
-This is a starting point for an app that includes user account creation and authentication using TS and MongoDB.  This starting point includes authentication via JWT w/refresh and access tokens, validation of email and/or phone number (through Twilio's API), and more.
+This is my personal blog that includes user account creation and authentication using TS and MongoDB.  This starting point includes authentication via JWT w/refresh and access tokens, validation of email and/or phone number (through Twilio's API), and more.
 
 
 # If you want to build this project out yourself, here are some helpful points: 
@@ -36,6 +36,7 @@ This is a starting point for an app that includes user account creation and auth
 yarn init 
 
 yarn add express mongoose dotenv cors morgan cookie-parser bcrypt jsonwebtoken nodemailer google-auth-library twilio
+yarn create react-app client --template typescript
 ```
 
 # dev dependencies
