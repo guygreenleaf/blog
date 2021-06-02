@@ -1,19 +1,27 @@
 # To demo and see how this works:
 Make sure you bring in the following environment variables in an .ENV file: 
 MONGODB_URL
+
 ACTIVE_TOKEN_SECRET 
+
 ACCESS_TOKEN_SECRET 
+
 REFRESH_TOKEN_SECRET 
 
 BASE_URL
 
 MAIL_CLIENT_ID
+
 MAIL_CLIENT_SECRET
+
 MAIL_REFRESH_TOKEN 
+
 SENDER_EMAIL_ADDRESS 
 
 TWILIO_ACCOUNT_SID 
+
 TWILIO_AUTH_TOKEN 
+
 TWILIO_PHONE_NUMBER 
 
 ```bash
