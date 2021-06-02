@@ -1,5 +1,5 @@
 # What This Is
-This is a starting point for user account creation and authentication using TS and MongoDB.  This starting point includes authentication via JWT w/refresh and access tokens, validation of email and/or phone number (through Twilio's API), and more.
+This is a starting point for an app that includes user account creation and authentication using TS and MongoDB.  This starting point includes authentication via JWT w/refresh and access tokens, validation of email and/or phone number (through Twilio's API), and more.
 
 
 # Starting scripts:
