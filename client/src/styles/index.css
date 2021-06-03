@@ -28,3 +28,140 @@ code {
 .notFoundText{
   color: gray;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+
+  /** background image */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('sandy.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+
+.loginContainer{
+  display: flex;
+  height: 100vh;
+  min-width: 0;
+
+}
+
+.pleaseLogin{
+min-height: 0;
+min-width: 0;
+}
+
+.loginForm{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25vw;
+  height: 70vh;
+  margin: auto;
+  border: solid black 1px;
+  border-radius: 3px;
+  box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  min-width: 0;
+  min-height: 0;
+
+  background: linear-gradient(357deg, rgba(69,162,246,1) 21%, rgba(187,203,223,1) 48%, rgba(55,240,251,1) 68%);
+}
+.inputBox{
+  display: flex;
+  width: 100%;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: blue;
+}
+
+.internalContainer{
+   display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 0;
+  width: 70%;
+  height: 85%;
+  border: solid black 1px;
+  border-radius: 3px;
+  box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  min-width: 0;
+
+background: linear-gradient(147deg, rgba(69,227,233,1) 21%, rgba(187,203,223,1) 48%, rgba(115,177,255,1) 68%);
+}
+
+.emailField{
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 10%;
+  padding: 20px 20px;
+  box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  background: rgb(246,128,69);
+background: linear-gradient(357deg, rgba(246,128,69,1) 21%, rgba(229,175,233,1) 48%, rgba(55,251,239,1) 77%);
+}
+
+.emailLine{
+  margin-bottom: 45px;
+}
+
+.emailLabel{
+  margin-top: 10px;
+}
+
+.passwordLine{
+ 
+  padding-bottom: 10px;
+}
+
+.inputForm{
+  display: flex;
+  min-height: 0;
+  min-width: 0;
+}
+
+.inputBox{
+  background: transparent;
+}
+
+@media(max-height: 300px){
+  .emailLabel{
+    visibility: hidden; 
+  }
+  .inputBox{
+    visibility: hidden;
+  }
+}
+
+@media(max-height: 500px){
+.inputForm{
+  visibility: hidden;
+}
+.pleaseLogin{
+  margin-top: 100px;
+}
+}
+
+@media(max-width: 615px){
+  .internalContainer{
+    visibility: hidden;
+  }
+}
+
+/* Portrait */
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) { 
+
+    .loginContainer{
+      width: 100%;
+    }
+    .loginForm{
+      width: 100%;
+    }
+}
