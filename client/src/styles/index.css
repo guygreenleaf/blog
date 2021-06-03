@@ -13,3 +13,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.notFoundContainer{
+  display: flex;
+  height: 100vh;
+}
+
+.notFoundChild{
+  width: 400px;
+  height: 100px;
+  margin: auto;
+}
+
+.notFoundText{
+  color: gray;
+}
